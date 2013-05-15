@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* -------- sidebar region --------*/
+
+#sidebar .sidebarContent {
+	padding-left: 45px;
+}
+
+/* base navigation */
+ul#baseNav {
+	float: left;
+	list-style: none;
+	margin:0;
+	padding:0;
+	margin-bottom: 30px;
+}
+ul#baseNav li {
+	margin: 0;
+	padding: 0;
+}
+ul#baseNav li a{
+	display: block;
+	width: 272px;
+	height: 70px;
+	text-indent: -1000em;
+}
+ul#baseNav li a.tours {
+	background: url(images/tours_main.gif) no-repeat left top;
+}
+ul#baseNav li a.mission{
+	background: url(images/mission_main.gif) no-repeat left top;
+}
+ul#baseNav li a.contact {
+	background: url(images/contact_main.gif) no-repeat left top;
+}
+ul#baseNav li a.resources {
+	background: url(images/resource_main.gif) no-repeat left top;
+}
+ul#baseNav li a.explorers {
+	background: url(images/explorers_main.gif) no-repeat left top;
+}
+ul#baseNav li a.current, ul#baseNav li a.current:hover {
+	background-position: right top;
+	border: none;
+	cursor: default;
+}
+ul#baseNav li a:hover {
+	background-position: -272px 0;
+	border: none;
+}
